@@ -1,0 +1,20 @@
+#index {
+    .bracelects {
+        background: #e8e7e5;
+        padding-top: 2px;
+        .bracelects-item {
+            width: 25%;
+            padding: 0 2px;
+            box-sizing: border-box;
+            a {
+                display: block;
+            }
+            &:hover {
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transition: all 1s;
+                -webkit-transition: all 1s;
+            }
+        }
+    }
+}

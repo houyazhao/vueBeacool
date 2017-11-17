@@ -1,0 +1,38 @@
+#swiper .swiper-slide {
+    position: relative;
+    a {
+        display: block;
+        .desc {
+            position: absolute;
+            color: #fff;
+            width: 60%;
+            height: auto;
+            &.pic01 {
+                top: 45%;
+                transform: translate(5%, -45%);
+                div {
+                    color: #fff;
+                }
+            }
+            &.pic02 {
+                color: #333;
+                top: 15px;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+            &.pic03 {
+                width: 60%;
+                left: 10%;
+                top: 45%;
+                transform: translate(0, -45%);
+                img {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                div {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

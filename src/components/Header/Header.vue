@@ -58,7 +58,7 @@
         ],
         title: [
           {
-            link: '/',
+            link: '/index',
             text: '首页'
           },
           {
@@ -66,7 +66,7 @@
             text: '摩赞手环'
           },
           {
-            link: '/appChild',
+            link: '/app',
             text: 'APP'
           },
           {

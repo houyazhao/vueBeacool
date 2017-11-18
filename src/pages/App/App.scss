@@ -1,0 +1,55 @@
+#app {
+    margin: 56px auto 0;
+    background: #fff;
+    width: 1200px;
+    .breadcrumb {
+        background: #f9f9f7;
+        padding: 15px 0;
+    }
+    .msg {
+        position: relative;
+        padding-top: 50px;
+        .app-item {
+            width: 60%;
+            text-align: center;
+            img {
+                width: 70%;
+            }
+        }
+        .title-item {
+            width: 20%;
+            margin-top: 50px;
+            .title {
+                font-size: 30px;
+                margin: 15px auto;
+                text-align: center;
+            }
+            .desc {
+                text-align: left;
+                font-size: 14px;
+                margin: 15px auto;
+            }
+        }
+    }
+    .download {
+        margin: 30px auto 15px;
+        padding-top: 30px;
+        text-align: center;
+        .title {
+            text-align: center;
+            font-size: 24px;
+            width: 200px;
+            border-bottom: 3px solid #ddd;
+        }
+        .img-item {
+            margin-top: 50px;
+            display: inline-block;
+            width: 200px;
+            height: 122px;
+            text-align: center;
+            img {
+                width: 160px;
+            }
+        }
+    }
+}

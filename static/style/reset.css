@@ -3,7 +3,6 @@
 /* CSS Document */
 
 * {
-    color: #333;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +10,7 @@
 body {
     font: 14px/1.5 "微软雅黑", Arial, Tahoma, Helvetica, \5b8b\4f53, sans-serif;
     min-width: 1200px;
+    background: #f9f9f7;
 }
 
 html,

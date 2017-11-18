@@ -1,0 +1,48 @@
+#contact {
+    margin-top: 50px;
+    .contact-mode {
+        text-align: left;
+        margin-left: 200px;
+        .phone {
+            .icon-phone {
+                display: inline-block;
+                vertical-align: middle;
+                width: 40px;
+                height: 40px;
+                background-repeat: no-repeat;
+                background-position: 0px 0px;
+                background-image: url('./../../../static/images/icon_company.png');
+            }
+        }
+        .email {
+            .icon-email {
+                display: inline-block;
+                vertical-align: middle;
+                width: 40px;
+                height: 40px;
+                background-repeat: no-repeat;
+                background-position: -60px 0px;
+                background-image: url('./../../../static/images/icon_company.png');
+            }
+        }
+        .address {
+            .icon-address {
+                display: inline-block;
+                vertical-align: middle;
+                width: 40px;
+                height: 40px;
+                background-repeat: no-repeat;
+                background-position: -120px 0px;
+                background-image: url('./../../../static/images/icon_company.png');
+            }
+        }
+    }
+    .consultation-mode {
+        margin-left: 50px;
+        .consultation-info {
+            text-align: left;
+            margin-left: 20px;
+            line-height: 2;
+        }
+    }
+}

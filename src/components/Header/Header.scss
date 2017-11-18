@@ -6,6 +6,7 @@
     z-index: 100;
     width: 100%;
     background: #f8f8f8;
+    border-bottom: 1px solid #cccccc;
     .navbar {
         width: 1200px;
         margin: 0 auto;
@@ -31,6 +32,14 @@
                     a {
                         font-size: 16px;
                         color: #777;
+                        &:focus {
+                            color: #333;
+                            background-color: transparent;
+                        }
+                        &:hover {
+                            color: #333;
+                            background-color: transparent;
+                        }
                     }
                 }
             }
